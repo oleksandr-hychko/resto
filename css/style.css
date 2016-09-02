@@ -1,0 +1,57 @@
+/* Header */
+header {
+  padding: 12px 0 15px 0;
+}
+
+header .logo {
+    margin: 0 auto;
+    display: block;
+}
+
+header .top-menu {
+  display: block;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.top-menu ul {
+  display: none;
+}
+.top-menu button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: 0;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.9) url("../img/mobile_menu_button.png") center no-repeat;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-size: 80%;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  transition: all 400ms ease;
+}
+.top-menu button.expanded {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  background-color: transparent;
+  border: 0;
+}
+
+.top-menu a {
+  font-family: "aleoregular", sans-serif;;
+  font-size: 0.875em;
+  display: block;
+  background: #fff;
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: none;
+  color: #3b3b3b;
+}
+.top-menu a:hover,
+.top-menu a:active,
+.top-menu a:focus {
+  background: #f0f0f0;
+}

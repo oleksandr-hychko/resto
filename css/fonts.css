@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'aleobold';
-    src: url('/fonts/aleo_bold_macroman/Aleo-Bold-webfont.eot');
-    src: url('/fonts/aleo_bold_macroman/Aleo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/aleo_bold_macroman/Aleo-Bold-webfont.woff') format('woff'),
-         url('/fonts/aleo_bold_macroman/Aleo-Bold-webfont.ttf') format('truetype'),
-         url('/fonts/aleo_bold_macroman/Aleo-Bold-webfont.svg#aleobold') format('svg');
+    src: url('../fonts/aleo_bold_macroman/Aleo-Bold-webfont.eot');
+    src: url('../fonts/aleo_bold_macroman/Aleo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aleo_bold_macroman/Aleo-Bold-webfont.woff') format('woff'),
+         url('../fonts/aleo_bold_macroman/Aleo-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/aleo_bold_macroman/Aleo-Bold-webfont.svg#aleobold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -12,11 +12,11 @@
 
 @font-face {
     font-family: 'aleolight';
-    src: url('/fonts/aleo_light_macroman/Aleo-Light-webfont.eot');
-    src: url('/fonts/aleo_light_macroman/Aleo-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/aleo_light_macroman/Aleo-Light-webfont.woff') format('woff'),
-         url('/fonts/aleo_light_macroman/Aleo-Light-webfont.ttf') format('truetype'),
-         url('/fonts/aleo_light_macroman/Aleo-Light-webfont.svg#aleolight') format('svg');
+    src: url('../fonts/aleo_light_macroman/Aleo-Light-webfont.eot');
+    src: url('../fonts/aleo_light_macroman/Aleo-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aleo_light_macroman/Aleo-Light-webfont.woff') format('woff'),
+         url('../fonts/aleo_light_macroman/Aleo-Light-webfont.ttf') format('truetype'),
+         url('../fonts/aleo_light_macroman/Aleo-Light-webfont.svg#aleolight') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -24,11 +24,11 @@
 
 @font-face {
     font-family: 'aleolightitalic';
-    src: url('/fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.eot');
-    src: url('/fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.woff') format('woff'),
-         url('/fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.ttf') format('truetype'),
-         url('/fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.svg#aleolightitalic') format('svg');
+    src: url('../fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.eot');
+    src: url('../fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.woff') format('woff'),
+         url('../fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.ttf') format('truetype'),
+         url('../fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.svg#aleolightitalic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -36,11 +36,11 @@
 
 @font-face {
     font-family: 'aleoregular';
-    src: url('/fonts/aleo_regular_macroman/Aleo-Regular-webfont.eot');
-    src: url('/fonts/aleo_regular_macroman/Aleo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/aleo_regular_macroman/Aleo-Regular-webfont.woff') format('woff'),
-         url('/fonts/aleo_regular_macroman/Aleo-Regular-webfont.ttf') format('truetype'),
-         url('/fonts/aleo_regular_macroman/Aleo-Regular-webfont.svg#aleoregular') format('svg');
+    src: url('../fonts/aleo_regular_macroman/Aleo-Regular-webfont.eot');
+    src: url('../fonts/aleo_regular_macroman/Aleo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aleo_regular_macroman/Aleo-Regular-webfont.woff') format('woff'),
+         url('../fonts/aleo_regular_macroman/Aleo-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/aleo_regular_macroman/Aleo-Regular-webfont.svg#aleoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -48,13 +48,12 @@
 
 @font-face {
     font-family: 'wc_mano_negra_btaregular';
-    src: url('/fonts/wcmanonegrabta_regular_macroman/WCManoNegraBta-webfont.eot');
-    src: url('/fonts/wcmanonegrabta_regular_macroman/WCManoNegraBta-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/wcmanonegrabta_regular_macroman/WCManoNegraBta-webfont.woff') format('woff'),
-         url('/fonts/wcmanonegrabta_regular_macroman/WCManoNegraBta-webfont.ttf') format('truetype'),
-         url('/fonts/wcmanonegrabta_regular_macroman/WCManoNegraBta-webfont.svg#wc_mano_negra_btaregular') format('svg');
+    src: url('../fonts/wcmanonegrabta_regular_macroman/WCManoNegraBta-webfont.eot');
+    src: url('../fonts/wcmanonegrabta_regular_macroman/WCManoNegraBta-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/wcmanonegrabta_regular_macroman/WCManoNegraBta-webfont.woff') format('woff'),
+         url('../fonts/wcmanonegrabta_regular_macroman/WCManoNegraBta-webfont.ttf') format('truetype'),
+         url('../fonts/wcmanonegrabta_regular_macroman/WCManoNegraBta-webfont.svg#wc_mano_negra_btaregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
-
