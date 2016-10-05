@@ -9,6 +9,7 @@ header .logo {
 }
 
 header .top-menu {
+  z-index: 999;
   display: block;
   position: fixed;
   width: 100%;
@@ -34,7 +35,6 @@ header .top-menu {
   transition: all 400ms ease;
 }
 .top-menu button.expanded {
-  -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   background-color: transparent;
   border: 0;
@@ -42,7 +42,7 @@ header .top-menu {
 
 .top-menu a {
   font-family: "aleoregular", sans-serif;;
-  font-size: 0.875em;
+  font-size: 0.875rem;
   display: block;
   background: #fff;
   text-align: center;
@@ -54,4 +54,54 @@ header .top-menu {
 .top-menu a:active,
 .top-menu a:focus {
   background: #f0f0f0;
+}
+
+/* Billboard */
+
+.billboard {
+  background: url("../img/billboard_xs.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 50px 0 50px 0;
+  text-align: center;
+  border-bottom: 4px solid #f34949;
+  position: relative;
+  margin-bottom: 140px;
+}
+
+.billboard .main-title {
+  text-transform: capitalize;
+  font: 2rem "wc_mano_negra_btaregular", sans-serif;
+  color: #fff;
+}
+
+.billboard .sub-title {
+  text-transform: lowercase;
+  font: 1rem "aleoregular", sans-serif;
+  color: #fff;
+}
+
+.billboard .menu {
+  text-transform: capitalize;
+  color: #fff;
+  background-color: #f34949;
+  width: 155px;
+  height: 70px;
+  position: absolute;
+  left: 50%;
+  margin-left: -77.5px;
+  bottom: -70px;
+  font: 1.25rem "aleobold", sans-serif;
+  line-height: 70px;
+}
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 77.5px 10px 77.5px;
+  border-color: transparent transparent #ffffff transparent;
+  left: 50%;
+  margin-left: -77.5px;
+  bottom: -70px;
 }
