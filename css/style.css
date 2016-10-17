@@ -1,4 +1,11 @@
+/* Features CSS */
+
+.center-button {
+  text-align: center;
+}
+
 /* Header */
+
 header {
   padding: 12px 0 15px 0;
 }
@@ -19,6 +26,7 @@ header .top-menu {
 .top-menu ul {
   display: none;
 }
+
 .top-menu button {
   position: absolute;
   top: 15px;
@@ -34,6 +42,7 @@ header .top-menu {
   outline: none;
   transition: all 400ms ease;
 }
+
 .top-menu button.expanded {
           transform: rotate(90deg);
   background-color: transparent;
@@ -50,6 +59,7 @@ header .top-menu {
   text-decoration: none;
   color: #3b3b3b;
 }
+
 .top-menu a:hover,
 .top-menu a:active,
 .top-menu a:focus {
@@ -94,6 +104,7 @@ header .top-menu {
   font: 1.25rem "aleobold", sans-serif;
   line-height: 70px;
 }
+
 .triangle {
   position: absolute;
   width: 0;
@@ -104,4 +115,59 @@ header .top-menu {
   left: 50%;
   margin-left: -77.5px;
   bottom: -70px;
+}
+
+/* Menu */
+
+.menu {
+  padding: 0 10px 200px 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.menu-item {
+  margin-bottom: 60px;
+}
+
+.menu .menu-item div {
+  float:left;
+  margin-right: 25px;
+}
+
+.menu .menu-item .item-name {
+  font: 1rem "aleoregular", sans-serif;
+  color: #555;
+}
+
+.menu .menu-item .item-description {
+  font: 0.75rem "aleolightitalic", sans-serif;
+  color: #b7b7b7;
+}
+
+.menu .menu-item hr {
+  float: right;
+  width: 10%;
+}
+
+.menu .menu-item .item-price {
+  font: 1rem "aleoregular", sans-serif;
+  color: #555;
+  float: right;
+  margin-left: 15px;
+}
+
+.menu .load-button {
+  font: 0.875rem "aleoregular", sans-serif;
+  color: #b7b7b7;
+  padding: 10px;
+  border: 1px solid #b7b7b7;
+  text-decoration: none;
+}
+
+.menu .load-button:hover {
+  background-color: #f2f2f2;
+}
+
+.menu .load-button span {
+  margin: 0 10px 0 10px;
 }
